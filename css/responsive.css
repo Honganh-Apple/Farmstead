@@ -1,0 +1,138 @@
+/* <<<<<1440px  */
+@media screen and (max-width: 1440px) {
+  /* header  */
+
+  /* Carousel  */
+
+  .carousel__leftfloat h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+/* <<<<1200px: Minh Nhật */
+@media screen and (max-width: 1200px) {
+  /* Start responsive: Minh Nhật */
+  .service__item-img img {
+    width: 38px;
+  }
+
+  .service__item-title {
+    font-size: 19px;
+  }
+  /* End responsive: Minh Nhật */
+}
+
+/* <<<<1140px  */
+@media screen and (max-width: 1140px) {
+  .carousel__leftfloat h3 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .carousel__leftfloat p {
+    font-size: 17px;
+  }
+  .carosel__leftcontent h2 {
+    font-size: 90px;
+  }
+  .footer .footer_list h3 {
+    font-size: 16px;
+  }
+  .footer .footer_list .footer_subscribe button {
+    width: 30%;
+  }
+}
+
+/* <<<991 px  */
+@media screen and (max-width: 991px) {
+  .carosel__leftcontent h2 {
+    font-size: 80px;
+  }
+  .carousel__leftfloat h3 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .carousel__left {
+    left: 2em;
+  }
+
+  /* Start responsive: Minh Nhật */
+  .service__small-title {
+    font-size: 18px;
+  }
+
+  .service__big-title {
+    font-size: 32px;
+  }
+
+  .service__item-img img {
+    width: 48px;
+  }
+
+  .service__item-title {
+    font-size: 20px;
+  }
+  /* End responsive: Minh Nhật */
+  .footer .footer_list h3 {
+    margin-bottom: 10px;
+  }
+  .footer .footer_list {
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer_contact,
+  .footer_farm,
+  .footer_new {
+    width: 100%;
+  }
+}
+
+/* <<<768  */
+@media screen and (max-width: 768px) {
+  header .header__logo h1 {
+    color: #fff;
+  }
+  header .header__logo i {
+    color: #fff;
+  }
+  header.header__scroll .header__logo h1 {
+    color: #fb811e;
+  }
+  header.header__scroll .header__logo i {
+    color: #fb811e;
+  }
+  .carousel__left {
+    left: 0em;
+    padding: 2em;
+  }
+  .carosel__leftcontent {
+    background-color: var(--bg-color);
+    padding: 3em 2em 2em 4em;
+    border-radius: 8px;
+  }
+
+  /* Start responsive: Minh Nhật */
+  .service__big-title {
+    font-size: 30px;
+  }
+
+  .service__item-img img {
+    width: 74px;
+  }
+  /* End responsive: Minh Nhật */
+  .footer .footer_list {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+/* <<<568px  */
+@media screen and (max-width: 568px) {
+  .carosel__leftcontent h2 {
+    font-size: 70px;
+  }
+  .carousel__leftfloat h3 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
